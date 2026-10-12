@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Python packaging build metadata.
+*.egg-info/
+
+# Research data and trained models are not included in the initial public release.
+*.npy
+*.npz
+*.h5
+*.keras
+*.pickle
+*.pkl
+
+# Version the trained models loaded by ModelIntegrator.
+!models/Classification.h5
+!models/LogNormPrt.h5
+!models/LogNormStb.h5
+
+# Generated figures and simulation outputs.
+outputs/*
+!outputs/README.md
+frame_*.png
+Histgram*.png
+SimTrack_*.png
+ppc_plot_*.png
+
+# Local environments.
+.venv/
+venv/
+env/

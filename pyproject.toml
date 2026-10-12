@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ship-collision-model"
+version = "0.1.0"
+description = "Probabilistic target-ship behavior model for encounter simulations"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scipy",
+    "scikit-learn",
+    "tensorflow",
+    "Pillow",
+    "joblib",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
