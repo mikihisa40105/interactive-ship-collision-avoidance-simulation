@@ -103,8 +103,6 @@ python scripts/train_passage_distribution.py
 python scripts/run_simulation_demo.py
 ```
 
-元の notebook は履歴資料として `legacy/` に残しており、サポート対象の実行手順には含めません。
-
 ## Limitations and Disclaimer（利用上の注意）
 
 本リポジトリは研究・教育目的で公開しています。実船での衝突回避性能や安全性を保証するものではありません。学習済みモデルの予測特性は学習データに依存するため、データに十分含まれない遭遇条件への適用には注意が必要です。
