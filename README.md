@@ -103,8 +103,6 @@ With `data/input_data.npy` and the three trained model files in `models/`, run t
 python scripts/run_simulation_demo.py
 ```
 
-The original notebooks remain in `legacy/` as historical materials and are not part of the supported workflow.
-
 ## Limitations and Disclaimer
 
 This repository is provided for research and educational purposes. It does not guarantee collision-avoidance performance or safety in real-world ship operations. Model predictions depend on the training dataset and should be interpreted carefully for encounter conditions that are not adequately represented in that dataset.
